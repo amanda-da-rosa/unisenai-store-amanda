@@ -17,7 +17,9 @@
 const products = [
     { id: 0, name: "Notebook Pro", price: 5000.00, image: "img/notebook-pro.jpg" },
     { id: 1, name: "Smartphone 5G", price: 3000.00, image: "img/smartphone-5g.jpg" },
-    { id: 2, name: "Headphone", price: 500.00, image: "img/headphone.jpg" }
+    { id: 2, name: "Headphone", price: 500.00, image: "img/headphone.jpg" },
+    { id: 3, name: "Mouse Gamer", price: 250.00, image: "img/mouse-gamer.webp" }
+
 ];
 
 // Vetor que armazena os itens do carrinho.
@@ -39,7 +41,8 @@ let cart = [];
 const stockMatrix = [
     [10, 5],  // Produto 0 (Notebook Pro)  -> 10 na Filial A e 5 na Filial B
     [0, 2],   // Produto 1 (Smartphone 5G) -> 0 na Filial A e 2 na Filial B
-    [15, 20]  // Produto 2 (Headphone)     -> 15 na Filial A e 20 na Filial B
+    [15, 20],  // Produto 2 (Headphone)     -> 15 na Filial A e 20 na Filial B
+    [8, 12]
 ];
 
 
